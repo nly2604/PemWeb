@@ -1,0 +1,67 @@
+/* Reset Dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Latar belakang abu-abu muda */
+    padding: 20px;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #4CAF50; /* Warna hijau sesuai modul */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+/* Layout Konten Utama */
+#content {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Efek bayangan[cite: 1] */
+}
+
+/* Styling Tabel Smartphone */
+.smartphone-table {
+    width: 100%;
+    border-collapse: collapse; /* Menghilangkan jarak antar garis tabel */
+    margin-top: 10px;
+}
+
+.smartphone-table th, 
+.smartphone-table td {
+    border: 1px solid #333; /* Garis tabel */
+    padding: 12px;
+    text-align: left;
+}
+
+.smartphone-table th {
+    background-color: #333;
+    color: white;
+}
+
+.price {
+    font-weight: bold;
+    color: #4CAF50;
+    background-color: #f9f9f9;
+}
+
+/* Styling Footer */
+#footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+    margin-top: 30px;
+    border-radius: 8px;
+}
